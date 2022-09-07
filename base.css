@@ -1,0 +1,84 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(34, 103, 182);
+    font-size: 300%;
+    text-align: center;
+}
+h2 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(34, 103, 182);
+}
+
+li {
+    padding: 5px
+}
+
+a {
+    text-decoration: none;
+    color:rgb(34, 103, 182);
+}
+a:hover {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 20%;
+    background-color: rgb(102, 191, 191);
+    padding: 20px 30px px 0px;
+}
+.header {
+    background-color: rgb(194, 233, 245);
+    min-height: 150px;
+}
+.content {
+    background-color: rgb(194, 233, 245);
+    min-height: 300px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.footer {
+    background-color:rgb(102, 191, 191);
+    min-height: 150px;
+}
+.tratamentos {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+    color:rgb(34, 103, 182);
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  td, th {
+    border: 1px solid rgb(82, 153, 153);
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: rgb(102, 191, 191);
+  }
